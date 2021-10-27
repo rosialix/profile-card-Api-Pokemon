@@ -42,21 +42,7 @@ const pokemonData = async (id) => {
     const clone1 = contenedor1.cloneNode(true);
     //Crear Fragment
     const fragment = document.createDocumentFragment();
-    console.log(clone1)
- 
-    // clone.querySelector(".foto_img").setAttribute("src", pokemon.imgCvg);
-    // // clone.querySelector('.card-body-img').setAttribute('src', pokemon.imgJuego)
-    // clone.querySelector(
-    //   ".name"
-    // ).innerHTML = `${pokemon.nombre} <span>${pokemon.hp}hp</span>`;
-    // clone.querySelector(".card-body-text").textContent =
-    //   pokemon.experiencia + " exp";
-    // clone.querySelectorAll(".datos h2")[0].textContent =
-    //   pokemon.ataque + "K";
-    // clone.querySelectorAll(".datos h2")[1].textContent =
-    //   pokemon.especial + "K";
-    // clone.querySelectorAll(".datos h2")[2].textContent =
-    //   pokemon.defensa + "K";
+  
 
     //inserto en el contenedor (main) codigo html para mostrar la card
        clone1.insertAdjacentHTML("afterbegin",
